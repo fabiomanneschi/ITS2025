@@ -10,7 +10,7 @@
 
         public class Calc
         {
-            public int Add3(int x, int y)
+            public int Add4(int x, int y)
             {
                 return x + y;
             }
