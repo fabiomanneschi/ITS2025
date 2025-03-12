@@ -10,11 +10,15 @@
 
         public class Calc
         {
-            public int Add(int x, int y)
+            public int Add5(int x, int y)
             {
                 return x + y;
             }
 
+        public int Moltiplicazione(int x, int y)
+            {
+                return x * y;
+            }
          
         }
 
