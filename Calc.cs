@@ -15,8 +15,23 @@
                 return x + y;
             }
 
-         
-        }
+            public int Min(int x, int y)
+            {
+                return x - y;
+            }
+
+            public int Div(int x, int y)
+            {
+                return x / y;
+            }
+
+            public int Tim(int x, int y)
+            {
+                return x * y;
+            }
+
+
+    }
 
 
 
