@@ -15,6 +15,11 @@
                 return x + y;
             }
 
+            public int Product(int x,int y)
+            {
+                return x * y;
+            }
+
          
         }
 
