@@ -14,9 +14,11 @@
             {
                 return x + y;
             }
-
-         
+        public int Sottrai(int x, int y)
+        {
+            return x - y;
         }
+    }
 
 
 
