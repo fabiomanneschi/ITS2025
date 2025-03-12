@@ -19,7 +19,7 @@ using System.Text;
 
             public int Sottrazione(int x, int y)
             {
-                return x - y;
+            return x - y;
             }
 
         }
