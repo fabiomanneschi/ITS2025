@@ -5,21 +5,30 @@
     using System.Text;
     using System.Threading.Tasks;
 
-    namespace ITS2025
+namespace ITS2025
+{
+
+    public class Calc
     {
-
-        public class Calc
+        public int Add(int x, int y)
         {
-            public int Add(int x, int y)
-            {
-                return x + y;
-            }
+            return x + y;
+        }
 
-         
+        public int Prod(int x, int y)
+        {
+
+
+            return x * y;
+
         }
 
 
 
 
 
+
+
+
     }
+}
