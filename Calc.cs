@@ -10,6 +10,14 @@
 
     public class Calculator
     {
+        bool optionNull = false;
+        public Calculator()
+        {
+        }
+        public Calculator(bool X)
+        {
+            bool optionNull = X;
+        }
         public int Add(int x, int y)
         {
             return x + y;
@@ -27,15 +35,25 @@
 
         public int? Divide(int x, int y)
         {
-            try
+            if (optionNull)
+            {
+                try
+                {
+                    return (x / y);
+                }
+                catch
+                {
+                    Console.WriteLine("Attenzione non puoi dividere per zero!!!");
+                    return null;
+                }
+            }
+            else 
             {
                 return (x / y);
             }
-            catch
-            {
-                Console.WriteLine("Attenzione non puoi dividere per zero!!!");
-                return null;
-            }
+
+            //return (x / y);
+
         }
         public int? Potenza(int b, int e)
         {
