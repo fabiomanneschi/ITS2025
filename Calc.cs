@@ -16,7 +16,7 @@
         }
         public Calculator(bool X)
         {
-            bool optionNull = X;
+            optionNull = X;
         }
         public int Add(int x, int y)
         {
